@@ -1,0 +1,437 @@
+@charset "UTF-8";
+
+body{
+	min-height: 100vh;
+	
+
+	
+}
+.header{
+	height:20%;
+}
+
+.Nav{
+	min-height:calc(100vh - 110px - 126px);
+}
+/*------------register css------------*/
+.register{
+    border: 0.1px solid rgb(185, 182, 182);
+    background-color: rgb(253, 253, 253);
+    width: 400px;
+    height: 310px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+.register h2{
+    text-align: center;
+}
+.register h7{
+	margin-left: 5%;
+}
+.input_Register{
+    margin: 2px;
+    height: 30px;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 2px;
+    border: 0.1px solid rgb(209, 198, 219);
+}
+.Register_submit{
+    background-color: rgb(64, 147, 241);
+    color: white;
+   width: 360px;
+    
+}
+.Register_submit:hover{
+    background-color: rgb(30, 101, 233);
+}
+
+
+.register a{
+    text-decoration: none;
+    margin-left: 5%;
+    color: rgb(18, 124, 245);
+
+}
+.register a:hover{
+    color: tomato;
+}
+
+
+/*----- phan trang css----------*/
+.phanTrang a {
+    text-decoration: none;
+    border: 1px solid black;
+    color: rgb(30, 30, 32) ;
+    background-color: white;
+    padding: 4px 8px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    
+    
+}
+.phanTrang{
+   margin-left: 25%;
+   margin-top: 15px;
+}
+a.ativeva{
+	background-color: orange;
+}
+.none{
+	display:none;
+}
+ 
+/* head----------------------------------------*/
+.search {
+    background-color: #404041;
+    display: flex;
+    height: 70px;
+    
+}
+.welcome{
+    padding-left: 10%;
+}
+.formSearch{
+    background-color: rgb(240, 134, 14);
+    display: flex;
+    margin-top: 20px ;
+    margin-left: 10%;
+    width: 80%;
+}
+#spanFormSearch{
+    padding-right: 30px;
+    background-color: rgb(240, 244, 247);
+    padding-left: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 3px;
+    
+}
+.input_search{
+    height: 25px;
+    width: 80%;
+    padding-left: 0px;
+    border: 0px;
+
+}
+.divformSearch{
+    width: 70%;
+}
+.menuLink:hover{
+	color: orange;
+}
+/* menu-------------------- */
+.menu{
+    display: flex;
+    background-color: #5c5d5e;
+    justify-content: space-between;
+    height: 40px;
+    
+}
+.menu1{
+    padding-left: 10%;
+    padding-top: 10px;
+}
+.menu2{
+    padding-right: 13%;
+    padding-top: 10px;
+}
+.menuLink{
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+    
+}
+.menuLink:active{
+    color: coral;
+}
+
+/*-------footer css----*/
+.footerbot{
+    text-align: center;
+    background-color: #3f3e3e;
+    color: coral;
+    padding: 5px;
+
+}
+.footerTop{
+    background-color: #5c5d5e;
+    height: 30px;
+    margin-top: 5%;
+    border-top: 2px solid rgb(252, 133, 90);
+     
+}
+/*-----------login css-----------*/
+
+.login{
+     border: 1px solid rgb(172, 173, 172);
+     border-radius: 10px;
+     box-shadow: 5px 10px  rgb(222, 230, 222);
+     width: 40vw;
+     margin-top: 4vw; 
+     margin-left: 30vw;
+
+}
+#icon_Close_Login{
+     margin-left: 93%;
+     margin-top: 2%;
+     cursor: pointer;
+}
+.avata{
+    width: 30%;
+    height: 30%;
+    margin-left: 35%;  
+}
+.input_login{
+    border-radius: 5px;
+    margin: 10px 0px;
+    width: 100%;
+    height: 30px;
+}
+.form_Login{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#input_Submit{
+    cursor: pointer;
+    background-color: rgb(81, 199, 70);
+    color: white;
+}
+.avata img{
+    width: 100%;
+    height: 150px;
+    border-radius:50% ;
+    border: 1px solid rgb(165, 156, 156);
+}
+.login_Footer{
+    display: flex;
+    justify-content: space-between;
+    height: 53px;
+    margin-top: 5px;
+    background-color: rgb(202, 205, 207);
+    border-radius:0px 0px 10px 10px;
+    text-align:center ;
+}
+.login_Footer span{
+    background-color: coral;
+    padding: 7px;
+    text-align:center ;
+    margin-left: 10px;
+    
+    
+
+}
+.login_Footer span a{
+    text-decoration: none;
+    color: cornsilk;
+    
+}
+.login_Footer p {
+    padding-right:10px ;
+}
+
+
+/*-------thong tin css-------------------*/
+.noiDung{
+ padding-left: 10%;
+ padding-right: 10%;
+
+}
+
+.thongTin{
+    /* width: 100%; */
+    margin-top: 10%;
+    height: 350px;
+    border: 1px solid rgb(168, 167, 167);
+
+}
+.anhNoiDung{
+    width: 100%;
+    height: 250px;
+    padding-top: 5%;
+}
+.LinkProduct {
+    text-decoration: none;
+}
+.thongTinProduct{
+    margin-top: 2%;
+    text-align: left;
+    padding-left: 10%;
+    margin-bottom: 5px;
+}
+.Type{
+	text-transform: uppercase;
+}
+/*Information css ---------------------------------------------*/
+
+.tenSanPham{
+    border-bottom: 1px solid rgb(199, 191, 191);
+}
+.tenSanPham h3{
+    padding-left: 20px;
+}
+.sanPham {
+    flex-wrap:nowrap ;
+}
+.sanPham_anh{
+    margin-left: 15%;
+}
+.thongTin_May a{
+    text-decoration: none ;
+    color: rgb(241, 236, 226);
+    padding: 7px 20px;
+    border: 1px solid rgb(187, 185, 185);
+    background-color: rgb(209, 92, 9);
+    border-radius: 5px;
+    
+}
+.thongTin_May a:hover{
+    background-color:rgb(224, 141, 82) ;
+}
+
+
+/*---------cart css------------------------------*/
+.cart, th, td{
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse:collapse
+    
+}
+.cart{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.cart, th{
+    height: 25px;
+
+}
+.cart, td{
+    text-align: center;
+    height: 30px;
+}
+.total{
+    text-align: right;
+    padding-right:  10px;
+}
+.cart_khachHang{
+    width: 70%;
+    border-collapse:collapse;
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+.cart_khachHang th{
+    border: none;
+    text-align: left;
+    
+}
+.cart_khachHang td{
+    text-align: left;
+    width: 50%;
+}
+.cart_supmit{
+    text-decoration: none ;
+    color: rgb(255, 255, 255);
+    padding: 7px 20px;
+    border: 1px solid rgb(187, 185, 185);
+    background-color: rgb(235, 123, 44);
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    
+}
+.cart_supmit:hover{
+    background-color:rgb(224, 141, 82) ;
+}
+.input_adderss{
+  border: 0px;
+ 
+     height: 30px;
+    width: 99%;
+
+	
+}
+
+
+
+
+
+
+
+/*-------- reponsive css  ---------*/
+
+
+@media (max-width: 991px){
+    .sanPham_anh{
+        margin-left: 3%;
+    }
+}
+@media (max-width: 767px){
+		.leftcolumn, .rightcolumn{
+	width: 100%;
+	padding: 0px;
+	
+	}
+	
+    .login{
+        width: 80vw;
+        margin-left: 10vw;
+   
+   }
+   .avata{
+     margin-left: 35%;
+   }
+    .sanPham {
+        flex-wrap:wrap ;
+    }
+    .thongTin_May{
+        margin-left: 20%;
+    }
+    .sanPham_anh{
+        margin-left: 0%;
+    }
+     .cart{
+        width: 95%;
+        margin-left: 1%;
+    }
+    .cart_khachHang{
+        width: 90%;
+        margin-left: 1%;
+    }
+    .cart_supmit{
+        margin-left: 1%;
+    }
+}
+
+@media (max-width: 599px){
+.login{
+        width: 100%;
+        margin-left: 0px;
+   }
+.avata img{
+     width: 150px;
+    
+}
+.avata{
+     margin-left: 25%;
+}
+.topnav a{
+	float: none;
+	width: 100px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
